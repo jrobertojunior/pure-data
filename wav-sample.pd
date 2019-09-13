@@ -19,8 +19,8 @@
 #X text 730 312 loop?;
 #X obj 592 312 tabplay~ Sample1;
 #X obj 566 267 r aiai;
-#X msg 363 220 clear add aiai bang \, bang;
 #X obj 363 240 qlist;
+#X msg 363 220 clear \, add aiai bang \, bang;
 #X connect 1 0 2 0;
 #X connect 1 1 3 0;
 #X connect 5 0 1 0;
@@ -32,4 +32,4 @@
 #X connect 13 0 6 0;
 #X connect 13 1 10 0;
 #X connect 14 0 8 0;
-#X connect 15 0 16 0;
+#X connect 16 0 15 0;
